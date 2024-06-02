@@ -1,0 +1,19 @@
+{
+    "name": "appitudeio/handlebars-helpers-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathias Eklöf",
+            "email": "mathiaseklof@gmail.com",
+            "homepage": "https://appitude.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "handlebars-helpers\\" : "lib/"       
+        }
+    }
+}
